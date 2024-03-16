@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Manrope:wght@200..800&family=Sixtyfour&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <title>Pictures</title>
+</head>
+
+<body>
+    <header>
+        <h1>Just some cities in Brazil</h1>
+        <div id="button-group">
+            <div id="button">
+                <button id="all-btn">all</button>
+                <button id="rio-btn">rio</button>
+                <button id="salvador-btn">salvador</button>
+                <button id="sp-btn">são paulo</button>
+                <button id="bh-btn">belo horizonte</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="image-container">
+            <div class="column">
+                <div class="image rio"><img class="my-img" src="rio1.jpg"></div>
+                <div class="image sp"><img class="my-img" src="sp1.jpg"></div>
+                <div class="image bh"><img class="my-img" src="bh1.jpg"></div>
+                <div class="image salvador"><img class="my-img" src="salvador4.jpg"></div>
+            </div>
+            <div class="column">
+                <div class="image rio"><img class="my-img" src="rio2.jpg"></div>
+                <div class="image salvador"><img class="my-img" src="salvador3.jpg"></div>
+                <div class="image sp"><img class="my-img" src="sp2.jpg"></div>
+                <div class="image bh"><img class="my-img" src="bh4.jpg"></div>
+            </div>
+            <div class="column">
+                <div class="image rio"><img class="my-img" src="rio3.jpg"></div>
+                <div class="image salvador"><img class="my-img" src="salvador2.jpg"></div>
+                <div class="image bh"><img class="my-img" src="bh3.jpg"></div>
+                <div class="image sp"><img class="my-img" src="sp4.jpg"></div>
+            </div>
+            <div class="column">
+                <div class="image salvador"><img class="my-img" src="salvador1.jpg"></div>
+                <div class="image bh"><img class="my-img" src="bh2.jpg"></div>
+                <div class="image sp"><img class="my-img" src="sp3.jpg"></div>
+                <div class="image rio"><img class="my-img" src="rio4.jpg"></div>
+
+            </div>
+        </div>
+    </main>
+    <div class="lightbox">
+        <span id="close-btn">&times;</span>
+        <img id="lightbox-img">
+    </div>
+    <script type="text/javascript" src="gallery.js"></script>
+</body>
+
+</html>
